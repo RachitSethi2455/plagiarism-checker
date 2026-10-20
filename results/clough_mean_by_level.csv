@@ -1,0 +1,5 @@
+level_name,Jaccard (1-gram),Jaccard (3-gram),Containment (3-gram),"Winnowing (k=5, w=4)",LCS,TF-IDF cosine,N-gram LM (-log PP),Content words (POS),Semantic (MiniLM)
+cut & paste,0.497,0.355,0.651,0.589,0.698,0.527,-2.882,0.478,0.833
+light revision,0.468,0.251,0.497,0.337,0.698,0.45,-3.2,0.477,0.865
+heavy revision,0.385,0.144,0.29,0.168,0.496,0.329,-3.971,0.382,0.791
+non-plagiarised,0.165,0.008,0.024,0.002,0.247,0.103,-5.308,0.116,0.57

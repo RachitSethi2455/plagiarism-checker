@@ -1,0 +1,21 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Clough: 95 answers -> C:\Users\HP\Desktop\Plagiarism Checker NLP\data\raw\clough.csv
+level_name
+non-plagiarised    38
+heavy revision     19
+light revision     19
+cut & paste        19 
+
+Generating train split:   0%|          | 0/3668 [00:00<?, ? examples/s]Generating train split: 100%|██████████| 3668/3668 [00:00<00:00, 165785.27 examples/s]
+Generating validation split:   0%|          | 0/408 [00:00<?, ? examples/s]Generating validation split: 100%|██████████| 408/408 [00:00<00:00, 47762.32 examples/s]
+Generating test split:   0%|          | 0/1725 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 1725/1725 [00:00<00:00, 149019.08 examples/s]
+mrpc train: 3,668 pairs
+mrpc test: 1,725 pairs
+Generating train split:   0%|          | 0/49401 [00:00<?, ? examples/s]Generating train split: 100%|██████████| 49401/49401 [00:00<00:00, 662167.52 examples/s]
+Generating test split:   0%|          | 0/8000 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 8000/8000 [00:00<00:00, 593673.60 examples/s]
+Generating validation split:   0%|          | 0/8000 [00:00<?, ? examples/s]Generating validation split: 100%|██████████| 8000/8000 [00:00<00:00, 461153.24 examples/s]
+paws train: 49,401 pairs
+paws test: 8,000 pairs
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 7853.36it/s]
+
+MiniLM embedding model ready.

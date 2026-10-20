@@ -1,0 +1,36 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+level_name
+non-plagiarised    38
+heavy revision     19
+light revision     19
+cut & paste        19
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 1929.67it/s]
+Batches:   0%|          | 0/15 [00:00<?, ?it/s]Batches:   7%|▋         | 1/15 [00:00<00:13,  1.04it/s]Batches:  13%|█▎        | 2/15 [00:01<00:08,  1.52it/s]Batches:  20%|██        | 3/15 [00:01<00:06,  1.86it/s]Batches:  27%|██▋       | 4/15 [00:02<00:05,  2.13it/s]Batches:  33%|███▎      | 5/15 [00:02<00:04,  2.23it/s]Batches:  40%|████      | 6/15 [00:02<00:03,  2.48it/s]Batches:  47%|████▋     | 7/15 [00:03<00:02,  2.76it/s]Batches:  53%|█████▎    | 8/15 [00:03<00:02,  3.16it/s]Batches:  60%|██████    | 9/15 [00:03<00:01,  3.65it/s]Batches:  67%|██████▋   | 10/15 [00:03<00:01,  4.15it/s]Batches:  73%|███████▎  | 11/15 [00:03<00:00,  4.09it/s]Batches:  80%|████████  | 12/15 [00:04<00:00,  4.68it/s]Batches:  87%|████████▋ | 13/15 [00:04<00:00,  4.48it/s]Batches:  93%|█████████▎| 14/15 [00:04<00:00,  4.84it/s]Batches: 100%|██████████| 15/15 [00:04<00:00,  3.27it/s]
+Scored 95 pairs with 9 methods in 58s
+
+Saved C:\Users\HP\Desktop\Plagiarism Checker NLP\results\clough_results.csv
+                        method  threshold_mean  accuracy  precision  recall     f1  roc_auc
+              Jaccard (1-gram)           0.218    0.9474     0.9815  0.9298 0.9550   0.9737
+              Jaccard (3-gram)           0.028    0.9368     0.9636  0.9298 0.9464   0.9654
+          Containment (3-gram)           0.086    0.9474     0.9815  0.9298 0.9550   0.9640
+          Winnowing (k=5, w=4)           0.014    0.9158     0.9623  0.8947 0.9273   0.9511
+                           LCS           0.330    0.8947     0.9608  0.8596 0.9074   0.9608
+                 TF-IDF cosine           0.151    0.9579     0.9818  0.9474 0.9643   0.9691
+           N-gram LM (-log PP)          -4.861    0.9263     0.9630  0.9123 0.9369   0.9672
+           Content words (POS)           0.165    0.9579     0.9818  0.9474 0.9643   0.9728
+             Semantic (MiniLM)           0.694    0.8632     0.9074  0.8596 0.8829   0.9400
+Combined (logistic regression)           0.500    0.9579     1.0000  0.9298 0.9636   0.9681
+  Majority baseline (always 1)             NaN    0.6000     0.6000  1.0000 0.7500      NaN
+
+Mean score per plagiarism level:
+ level_name            cut & paste  light revision  heavy revision  non-plagiarised
+Jaccard (1-gram)            0.497           0.468           0.385            0.165
+Jaccard (3-gram)            0.355           0.251           0.144            0.008
+Containment (3-gram)        0.651           0.497           0.290            0.024
+Winnowing (k=5, w=4)        0.589           0.337           0.168            0.002
+LCS                         0.698           0.698           0.496            0.247
+TF-IDF cosine               0.527           0.450           0.329            0.103
+N-gram LM (-log PP)        -2.882          -3.200          -3.971           -5.308
+Content words (POS)         0.478           0.477           0.382            0.116
+Semantic (MiniLM)           0.833           0.865           0.791            0.570
+Figures saved to C:\Users\HP\Desktop\Plagiarism Checker NLP\results\figures

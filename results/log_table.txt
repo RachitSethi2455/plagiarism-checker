@@ -1,0 +1,16 @@
+                                clough    mrpc    paws
+method                                                
+Jaccard (1-gram)                0.9550  0.8078  0.6278
+Jaccard (3-gram)                0.9464  0.7987  0.6713
+Containment (3-gram)            0.9550  0.7987  0.6785
+Winnowing (k=5, w=4)            0.9273  0.7987  0.6388
+LCS                             0.9074  0.7968  0.6849
+TF-IDF cosine                   0.9643  0.7975  0.6620
+N-gram LM (-log PP)             0.9369  0.7996  0.6676
+Content words (POS)             0.9643  0.8023  0.6242
+Semantic (MiniLM)               0.8829  0.8120  0.6212
+Combined (logistic regression)  0.9636  0.8176  0.7176
+Majority baseline (always 1)    0.7500  0.7987     NaN
+Majority baseline (always 0)       NaN     NaN  0.0000
+
+Saved C:\Users\HP\Desktop\Plagiarism Checker NLP\results\f1_by_dataset.csv
